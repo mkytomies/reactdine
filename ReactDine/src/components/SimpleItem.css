@@ -1,0 +1,44 @@
+.item {
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.item-img img {
+    width: 60%;
+    display: inline-block;
+}
+
+.item-img {
+    width: 40%;
+}
+
+.item-text {
+    width: 60%;
+    margin-right: 1rem;
+    color: black;
+    text-align: left;
+}
+
+.item-text p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.item-text h3 {
+    font-size: 18px;
+    margin-bottom: 0.2rem;
+}
+
+/* Medium-sized screens (e.g. tablets) */
+@media only screen and (max-width: 1050px) {
+    .item {
+        flex-direction: column;
+        width: 80%;
+    }
+    .item-img {
+        width: 60%;
+    }
+    .item-text {
+        width: 100%;
+    }
+}

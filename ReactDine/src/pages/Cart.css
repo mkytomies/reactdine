@@ -1,0 +1,37 @@
+.mainDiv {
+    display: flex;
+    padding-bottom: 4rem;
+    max-width: 1800px;
+}
+
+.cartItemDiv {
+    min-width: 80%;
+}
+
+.checkoutButton {
+    text-align: right;
+    padding-right: 6rem;
+}
+
+.empty {
+    font-size: 2rem;
+    padding: 6rem 0rem;
+}
+
+/* Medium-sized screens (e.g. tablets) */
+@media only screen and (max-width: 1050px) {
+    .checkoutButton {
+        text-align: right;
+        padding-right: 2rem;
+    }
+}
+  
+/* Smaller screens (e.g. mobile devices) */
+@media only screen and (max-width: 600px) {
+    .cartItemDiv {
+        min-width: 100%;
+    }
+    .mainDiv {
+        padding-left: 2rem;
+    }
+}
